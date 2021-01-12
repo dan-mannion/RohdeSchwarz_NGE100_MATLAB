@@ -1,4 +1,4 @@
-dev = nge100Connect(); %Connect to power supply
+dev = nge100_connect(); %Connect to power supply
 
 %Configure an output 
 %paramters:
@@ -19,4 +19,4 @@ nge100_enableOutput(dev, [1 2 3]);
 %Disable outputs
 nge100_disableOutput(dev, [1 2 3]);
 
-nge100Disconnect(dev); %Disconnect from device
+nge100_disconnect(dev); %Disconnect from device
